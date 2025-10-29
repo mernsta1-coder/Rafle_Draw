@@ -64,8 +64,10 @@ const Raffle = () => {
       </div>
        
         <div className='bts'>
-          <input type='button' value="Add" onClick={handleClick} className='btn1' />
-          <input type='button' className='btn1' value="Draw" onClick={((e) => handleDialog())} />
+          <input type='button' value="Add" onClick={handleClick} className='btn1'
+          disabled={!name.trim()}/>
+          <input type='button' className='btn1' value="Draw" onClick={((e) => handleDialog())} 
+          disabled={names.length == 0}/>
           </div>
           {added?(<h3 className='heading_names'>Added Names</h3>):("")}
         {names.map((item) => {
