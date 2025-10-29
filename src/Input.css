@@ -23,12 +23,12 @@ li {
 }
 input[type="text"] {
     color: black;
-    margin: 3px 17px;
-    width: 70%;
+    margin: 0px 30px;
+    width: 77%;
     border: transparent;
     border-bottom: 2px solid aquamarine;
     border-radius: 13px;
-    padding: 2px 22px;
+    padding: 16px 0pc 0px 18px;
 }
 input.btn1 {
     font-weight: bold;
