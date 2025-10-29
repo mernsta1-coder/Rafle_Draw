@@ -5,7 +5,7 @@ import './Input.css'
 
 
 
-const Input = () => {
+const Raffle = () => {
   const [name, setname] = useState("");
   const [names, setnames] = useState([]);
   const [x, setx] = useState(0);
@@ -99,4 +99,4 @@ const Input = () => {
   )
 }
 
-export default Input
+export default Raffle
